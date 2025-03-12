@@ -171,10 +171,6 @@
           <text macro="date-access"/>
         </group>
       </else-if>
-      <!--
-              Perhaps this breaks something in some cases. However, commenting out this section seems
-              to help in most cases.
-            -->
       <!-- else-if variable="source accessed" match="all"><group delimiter=" "><text variable="source"/><text macro="date-access"/></group></else-if-->
     </choose>
   </macro>
@@ -219,7 +215,6 @@
       <text variable="publisher"/>
     </group>
   </macro>
-  <!-- Still need to figure this section out -->
   <citation disambiguate-add-year-suffix="true" year-suffix-delimiter="," disambiguate-add-names="true" disambiguate-add-givenname="false" collapse="year-suffix">
     <sort>
       <key macro="date-issued-no-parentheses"/>
